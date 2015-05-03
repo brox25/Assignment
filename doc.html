@@ -1,63 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>docsondemand</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>docsondemand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">docsondemand.com</a>
+    <div class="nav">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">docsondemand.com</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Category <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header">All categories</li>
+                                <li><a href="#">Astronomy</a></li>
+                                <li><a href="#">Brains</a></li>
+                                <li><a href="#">Creativity</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="feature">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-sm-6">
+                            <h3>Money & Power in North Korea - Hidden Economy</h3>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jEJqEuM5V68" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="col-sm-6">
+                                <h4>Description</h4>
+                                <p>North Korea has becoming increasingly isolated under a series of international economic sanctions. The country is in financial straits. How has the Kim Jong Un regime managed to stay in power? Our interviews with people who were once high-ranking officials in the leadership inner circle and investigation in several countries revealed the existence of secret funds that only the supreme leader can freely use. The program will explore connection between power and money in North Korea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="col-sm-12">Astronomy</h3>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/grmuFkCdz3s" frameborder="0" allowfullscreen></iframe>
 
-   
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-       
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Category <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-           <li role="presentation" class="dropdown-header">All categories</li>
-            <li><a href="#">Astronomy</a></li>
-            <li><a href="#">Brains</a></li>
-            <li><a href="#">Creativity</a></li>
-          
-            
-                      </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Sign Up</a></li>
-        
-      </ul>
-
-    </div>
+                            </div>
+                            <h4>Dark Matter, Dark Energy the Invisible Universe</h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oMuHpb7EUv0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4>Constellations & Ancient Civilizations</h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/CBrsWPCp_rs" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4>Quantum Theory</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="col-sm-12">Brains</h3>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XKt4RAHnNM8" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4>The secret life of your body clock</h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cC22LYSlGWI" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4>How smart can we get?</h4>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Dlp87Om2Bgc" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4>The child's Brain</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+           <footer class="footer">
+  <div class="container">
+    <p class="text-muted">©All Rights Reserved.</p>
   </div>
-</nav>
-<div class="jumbtron">
-	<div class="container">
-		<div class="row">
-			<h1>Sharan Mudoor</h1>
-		</div>
-	</div>
-</div>
+</footer>
+        </div>
+    </div>
 </body>
+
 </html>
