@@ -1,0 +1,29 @@
+
+.description {
+	 font-family: 'Open Sans', sans-serif;
+	 text-align: justify;
+	}
+.description p{
+	padding:  10px ;
+	
+	color: #5a5a5a;
+
+}
+.description h4{
+	padding: 14px  ;
+	
+	font-weight: bold;
+
+}
+.nav{
+
+	
+}
+.category p{
+	padding: 25px ;
+
+	
+	}
+.footer {
+	text-align: right;
+}
